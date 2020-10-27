@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(221, 232, 255);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.tablero-operaciones {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex: 2fr 1fr;
+}
+.fechaynombre {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  place-items: start;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+input {
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 0px;
+  margin: 5px;
+  color: rgb(109, 109, 109);
+  text-align: center;
+}
+select {
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 0px;
+  margin: 5px;
+  color: rgb(109, 109, 109);
+  text-align: center;
+}
+.contenedor-products {
+  position: relative;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  width: 700px;
+  height: 400px;
+  left: 50px;
+  padding: 5px;
+  border-top: 3px rgb(63, 63, 63) dotted;
+}
+.contenedor-producto {
+  position: relative;
+  align-items: center;
+
+  width: auto;
+  height: auto;
+  left: -20px;
+  padding: 5px;
+}
+.super-titulo {
+  color: rgb(68, 68, 68);
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.unidad-producto {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  margin-left: 10px;
+}
+.input-des {
+  position: relative;
+  height: 28px;
+  background-color: white;
+  width: 80px;
+}
+.totalporproducto {
+  position: relative;
+  height: 30px;
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  width: 30px;
+}
+.factura {
+  border-top: 3px black dotted;
+  border-bottom: 3px black dotted;
+  background-color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: auto;
+  width: 400px;
+  text-align: justify;
+  position: relative;
+  margin-top: 20px;
+  font-size: 8px;
+  left: 60px;
+  opacity: 0.7;
+}
+.titulos {
+  font-family: sans-serif;
+  color: rgb(59, 59, 59);
+  font-size: 15px;
+}
+.boton-azul {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(55, 133, 221);
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 80;
+  height: 25px;
+}
+.boton-azul:hover {
+  background-color: rgb(22, 50, 128);
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
+.boton-producto {
+  position: relative;
+  bottom: 0;
+  top: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(55, 133, 221);
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 80;
+  height: 25px;
+}
+.boton-producto:hover {
+  background-color: rgb(22, 50, 128);
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
+.boton-rojo {
+  position: relative;
+  top: 8px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(221, 55, 55);
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 80;
+  height: 25px;
+}
+.boton-rojo:hover {
+  background-color: rgb(128, 22, 22);
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
